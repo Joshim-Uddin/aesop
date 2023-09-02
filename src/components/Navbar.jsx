@@ -3,8 +3,8 @@ import {GoSearch} from 'react-icons/go'
 
 const Navbar = () => {
     return (
-        <div className='flex justify-between md:px-10 px-5 py-8'>
-            <ul className='flex gap-5 items-center text-black'>
+        <div className='flex justify-between md:px-10 px-5 py-6'>
+            <ul className='flex md:flex-row flex-col gap-5 items-center text-black'>
                 <li>Skin Care</li>
                 <li>Body & Hand</li>
                 <li>Hair</li>
