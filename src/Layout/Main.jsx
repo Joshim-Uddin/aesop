@@ -4,6 +4,7 @@ import SecondTopBar from '../components/SecondTopBar';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import BodySection from '../components/BodySection';
+import Athenaeum from '../components/Athenaeum';
 
 
 const Main = () => { 
@@ -15,6 +16,7 @@ const Main = () => {
         <Navbar />
         <Hero />
        <BodySection />
+       <Athenaeum />
         </>
     );
 };

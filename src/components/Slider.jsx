@@ -34,7 +34,7 @@ const Slider = ({props}) => {
         </SwiperSlide>
         {images?.map((image, index)=><SwiperSlide key={index} className='flex flex-col items-end justify-end pt-48 pb-8'>
           <img src={image.url} alt="" className='h-auto w-auto'/>
-          <h4>{image.name}</h4>
+          <h4 className='cursor-pointer hover:underline'>{image.name}</h4>
           <p>{image.speciality}</p>
           </SwiperSlide>)}
         

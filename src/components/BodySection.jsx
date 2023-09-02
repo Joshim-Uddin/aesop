@@ -5,9 +5,9 @@ import img2 from './../assets/polishbar_two.avif'
 import img3 from './../assets/refreshbar_three.avif'
 
 const BodySection = () => {
-    const item1={url:img1, name:'itemOne', speciality:"Offers a mild yet effective cleanse"}
-    const item2={url:img2, name:'itemTwo', speciality:"Offers a mild yet effective cleanse"}
-    const item3={url:img3, name:'itemThree', speciality:"Offers a mild yet effective cleanse"}
+    const item1={url:img1, name:'Nurture Bar Soap', speciality:"Offers a mild yet effective cleanse"}
+    const item2={url:img2, name:'Polish Bar Soap', speciality:"Thoroughly cleanses and exfoliates skin"}
+    const item3={url:img3, name:'Refresh Bar Soap', speciality:"Offers a thorough and enlivening cleanse"}
     return (
         
            <div className='bodysection my-28'>
