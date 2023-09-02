@@ -3,14 +3,18 @@ import TopBar from '../components/TopBar';
 import SecondTopBar from '../components/SecondTopBar';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
+import BodySection from '../components/BodySection';
 
-const Main = () => {
+
+const Main = () => { 
+ 
     return (
         <>
         <TopBar />
         <SecondTopBar />
         <Navbar />
         <Hero />
+       <BodySection />
         </>
     );
 };
