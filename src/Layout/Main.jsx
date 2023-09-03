@@ -7,6 +7,7 @@ import BodySection from '../components/BodySection';
 import Athenaeum from '../components/Athenaeum';
 import SkinSection from '../components/SkinSection';
 import PostPooSection from '../components/PostPooSection';
+import HomeSection from '../components/HomeSection';
 
 
 const Main = () => { 
@@ -21,6 +22,7 @@ const Main = () => {
        <Athenaeum />
        <SkinSection />
        <PostPooSection />
+       <HomeSection />
         </>
     );
 };

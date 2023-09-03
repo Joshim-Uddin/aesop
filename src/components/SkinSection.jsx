@@ -22,7 +22,7 @@ const SkinSection = () => {
     return (
         
            <div className='bodysection my-24 py-5'>
-            <Slider props = {{subtitle:'For the skin', title:'Attention for all types', details:'The well-being of your skin is the product of hydration, nourishment, and protection through discerning rituals. Explore requisite skin care for all skin types.', btntext:'Skin', images: [item1, item2, item3, item4, item5, item6, item7, item8 ]}} className='flex justify-center items-center'/>
+            <Slider props = {{subtitle:'For the skin', title:'Attention for all types', details:'The well-being of your skin is the product of hydration, nourishment, and protection through discerning rituals. Explore requisite skin care for all skin types.', btntext:'Skin Care', images: [item1, item2, item3, item4, item5, item6, item7, item8 ]}} className='flex justify-center items-center'/>
            </div>  
         
     );

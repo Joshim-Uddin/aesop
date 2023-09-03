@@ -29,7 +29,7 @@ const Slider = ({props}) => {
             <h5 className='my-3'>{subtitle}</h5>
             <h2 className='text-4xl mb-3'>{title}</h2>
             <p className='mb-3'>{details}</p>
-            <p className='flex items-center gap-3'>See All {btntext} Care <FaArrowRight /></p>
+            <p className='flex items-center gap-3'>See All {btntext} <FaArrowRight /></p>
             </div>
         </SwiperSlide>
         <div>
