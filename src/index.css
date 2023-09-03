@@ -61,4 +61,7 @@
     --swiper-navigation-color: white;
 
 }
-  
+
+.heading{
+  @apply mb-4
+}

@@ -8,6 +8,9 @@ import Athenaeum from '../components/Athenaeum';
 import SkinSection from '../components/SkinSection';
 import PostPooSection from '../components/PostPooSection';
 import HomeSection from '../components/HomeSection';
+import StoreLocator from '../components/StoreLocator';
+import Rivews from '../components/Rivews';
+import Footer from '../components/Footer';
 
 
 const Main = () => { 
@@ -23,6 +26,9 @@ const Main = () => {
        <SkinSection />
        <PostPooSection />
        <HomeSection />
+       <StoreLocator />
+       <Rivews />
+       <Footer />
         </>
     );
 };

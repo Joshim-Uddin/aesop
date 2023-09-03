@@ -8,7 +8,7 @@ import 'swiper/css/scrollbar';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import { Navigation, Pagination, Scrollbar } from 'swiper/modules';
+import { Navigation, Scrollbar } from 'swiper/modules';
 import {FaArrowRight} from 'react-icons/fa'
 
 const Slider = ({props}) => {
@@ -21,7 +21,7 @@ const Slider = ({props}) => {
         spaceBetween={30}
         scrollbar={true}
         navigation={true}
-        modules={[Pagination, Scrollbar, Navigation]}
+        modules={[ Scrollbar, Navigation]}
         className="mySwiper relative"
       >
         <SwiperSlide className='ps-16'>
