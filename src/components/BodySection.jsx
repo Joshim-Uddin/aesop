@@ -10,7 +10,7 @@ const BodySection = () => {
     const item3={url:img3, name:'Refresh Bar Soap', speciality:"Offers a thorough and enlivening cleanse"}
     return (
         
-           <div className='bodysection my-28'>
+           <div className='bodysection my-24 py-5'>
             <Slider props = {{subtitle:'For the body', title:'An expression of care', details:'Aesop formulations offer the body deserving care, to cleanse, replenish, and nourish skin. Each product is a sensory pleasure to use with its own delightful aroma.', btntext:'Body', images: [item1, item2, item3 ]}} className='flex justify-center items-center'/>
            </div>  
         

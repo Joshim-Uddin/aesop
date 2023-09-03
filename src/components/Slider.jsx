@@ -24,7 +24,7 @@ const Slider = ({props}) => {
         modules={[Pagination, Scrollbar, Navigation]}
         className="mySwiper relative"
       >
-        <SwiperSlide className='pb-64 ps-16'>
+        <SwiperSlide className='ps-16'>
             <div className='text-left'>
             <h5 className='my-3'>{subtitle}</h5>
             <h2 className='text-4xl mb-3'>{title}</h2>
@@ -33,7 +33,7 @@ const Slider = ({props}) => {
             </div>
         </SwiperSlide>
         <div>
-        {images?.map((image, index)=><SwiperSlide key={index} className='flex flex-col pt-48 pb-8'>
+        {images?.map((image, index)=><SwiperSlide key={index} className='flex flex-col pb-8'>
           <div className='h-[461px] flex items-end'>
           <img src={image.url} alt=""/>
           </div>
