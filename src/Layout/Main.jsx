@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import BodySection from '../components/BodySection';
 import Athenaeum from '../components/Athenaeum';
+import SkinSection from '../components/SkinSection';
 
 
 const Main = () => { 
@@ -17,6 +18,7 @@ const Main = () => {
         <Hero />
        <BodySection />
        <Athenaeum />
+       <SkinSection />
         </>
     );
 };

@@ -32,11 +32,15 @@ const Slider = ({props}) => {
             <p className='flex items-center gap-3'>See All {btntext} Care <FaArrowRight /></p>
             </div>
         </SwiperSlide>
-        {images?.map((image, index)=><SwiperSlide key={index} className='flex flex-col items-end justify-end pt-48 pb-8'>
-          <img src={image.url} alt="" className='h-auto w-auto'/>
+        <div>
+        {images?.map((image, index)=><SwiperSlide key={index} className='flex flex-col pt-48 pb-8'>
+          <div className='h-[461px] flex items-end'>
+          <img src={image.url} alt=""/>
+          </div>
           <h4 className='cursor-pointer hover:underline'>{image.name}</h4>
           <p>{image.speciality}</p>
           </SwiperSlide>)}
+          </div>
         
       </Swiper>
         </>
